@@ -1,1 +1,18 @@
 @import url(base/base.css);
+
+@import url(components/card.css);
+@import url(components/image.css);
+@import url(components/accordion.css);
+
+* {
+  font-family: var(--main-font);
+}
+
+main {
+  background: linear-gradient(
+    180deg,
+    var(--soft-violet) 0%,
+    var(--soft-blue) 100%
+  );
+  padding: 148px 24px 85px;
+}
