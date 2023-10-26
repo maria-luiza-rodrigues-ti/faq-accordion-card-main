@@ -1,3 +1,7 @@
+.accordion_container {
+  max-width: 350px;
+}
+
 .accordion_title {
   text-align: center;
   color: var(--dark-blue);

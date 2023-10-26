@@ -3,3 +3,27 @@
   top: -108px;
   left: 17px;
 }
+
+.image_desktop {
+  display: none;
+}
+
+.image_mobile {
+  display: block;
+}
+
+@media (min-width: 1440px) {
+  .image_container {
+    position: absolute;
+    top: 0;
+    left: -45px;
+  }
+
+  .image_desktop {
+    display: block;
+  }
+
+  .image_mobile {
+    display: none;
+  }
+}

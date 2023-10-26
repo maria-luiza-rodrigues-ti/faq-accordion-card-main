@@ -5,4 +5,16 @@
 
   padding: 132px 24px 48px;
   position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 87px;
+    padding: 65px 95px 83px 0;
+  }
 }
