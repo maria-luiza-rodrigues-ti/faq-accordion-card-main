@@ -1,5 +1,10 @@
+.active {
+  display: block !important;
+}
+
 .accordion_container {
   max-width: 350px;
+  width: 100%;
 }
 
 .accordion_title {
@@ -38,4 +43,15 @@
   line-height: 1.5;
   color: var(--dark-grayish-blue);
   padding-top: 11px;
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .accordion-list_title {
+    font-size: 14px;
+  }
+
+  .accordion_title {
+    text-align: start;
+  }
 }

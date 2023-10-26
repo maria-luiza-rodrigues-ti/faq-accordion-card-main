@@ -9,10 +9,18 @@
 }
 
 main {
+  height: 100vh;
   background: linear-gradient(
     180deg,
     var(--soft-violet) 0%,
     var(--soft-blue) 100%
   );
   padding: 148px 24px 85px;
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    padding: 130px 240px;
+    box-sizing: border-box;
+  }
 }

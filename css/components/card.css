@@ -16,5 +16,7 @@
     justify-content: flex-end;
     gap: 87px;
     padding: 65px 95px 83px 0;
+    height: 509px;
+    box-sizing: border-box;
   }
 }
