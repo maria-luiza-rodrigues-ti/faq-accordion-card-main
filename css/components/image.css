@@ -33,9 +33,18 @@
 
   .image_desktop {
     display: block;
+    transform: translate3d(-97px, 71px, 0);
   }
 
   .image_mobile {
     display: none;
+  }
+
+  .image-desktop_container {
+    position: relative;
+    height: 509px;
+    background: url("../../assets/images/background-desktop.svg");
+    background-repeat: no-repeat;
+    left: 46px;
   }
 }
